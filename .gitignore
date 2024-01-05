@@ -1,0 +1,11 @@
+.idea/
+.vscode/
+.vs/
+cmake-build-debug/
+bin/
+build/
+out/
+CMakeSettings.json
+cmake-build-release/
+/_deps/
+/CMakeFiles/
