@@ -1,8 +1,12 @@
+# Adapted from https://github.com/SasLuca/raylib-cmake-template/blob/master/CMakeLists.txt
+# License: zlib https://github.com/SasLuca/raylib-cmake-template/blob/master/LICENSE
+# Changes: adding dependencies, adding raygui, adding source files, adding compiler flags, adding asset path macro
 cmake_minimum_required(VERSION 3.0)
 project(ai_backgammon)
 set(CMAKE_C_STANDARD 99)
 
 # Adding Raylib
+# License: zlib https://github.com/raysan5/raylib/blob/master/LICENSE
 include(FetchContent)
 set(FETCHCONTENT_QUIET FALSE)
 set(BUILD_EXAMPLES OFF CACHE BOOL "" FORCE) # don't build the supplied examples
@@ -18,6 +22,7 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(raylib)
 
 # Adding Raygui
+# License: zlib https://github.com/raysan5/raygui/blob/master/LICENSE
 FetchContent_Declare(
         raygui
         GIT_REPOSITORY "https://github.com/raysan5/raygui.git"

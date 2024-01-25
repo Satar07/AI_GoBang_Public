@@ -1,6 +1,9 @@
 //
 // Created by Cyril on 2023/11/28.
 //
+// Adapted from https://github.com/kimlongli/FiveChess/blob/master/FiveChess/ACSearcher.h
+// License: https://github.com/kimlongli/FiveChess/blob/master/LICENSE.txt
+//
 
 #ifndef CPP_ACENGINE_H
 #define CPP_ACENGINE_H
